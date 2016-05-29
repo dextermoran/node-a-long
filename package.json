@@ -1,0 +1,23 @@
+{
+  "name": "node-a-long-",
+  "version": "1.0.0",
+  "description": "follow along with a node tutorial",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dextermoran/node-a-long-.git"
+  },
+  "author": "dex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dextermoran/node-a-long-/issues"
+  },
+  "homepage": "https://github.com/dextermoran/node-a-long-#readme",
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "^4.13.4"
+  }
+}
