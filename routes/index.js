@@ -1,10 +1,12 @@
+var moviesJson  = require('../movies.json');
+
 // Routes
 exports.home = function(req, res) {
+  var movies = moviesJson.movies;
+
   res.render('home', {
     title: "Star Wars movies",
-    movies: ["Phantom Menace", "Attack of the Clones", "Revenge of The Sith",
-              "A New Hope", "Empire Strikes Back", "Return of The Jedi"]
-  });
+    movies: movies});
 };
 
 exports.movieSingle = function(req, res){
