@@ -13,6 +13,8 @@ app.get('/episode/:episode_number?', routes.movieSingle);
 app.get('*', routes.notFound);
 
 // Specify port
-app.listen(3000, function(){
-  console.log("the app is running on localhost 3000");
-});
+// app.listen(3000, function(){
+//   console.log("the app is running on localhost 3000");
+// });
+
+app.listen(process.env.PORT || 3000);
